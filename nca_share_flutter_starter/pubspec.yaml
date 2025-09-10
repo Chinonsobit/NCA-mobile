@@ -1,0 +1,27 @@
+
+name: nca_share
+description: A starter Flutter app for peer-to-peer file sharing (UI + placeholders for P2P logic).
+publish_to: 'none'
+version: 0.1.0+1
+
+environment:
+  sdk: ">=2.18.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.2
+  file_picker: ^5.2.0
+  permission_handler: ^10.4.0
+  path_provider: ^2.0.14
+  fluttertoast: ^8.2.1
+  flutter_webrtc: ^0.9.22
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/images/logo.png
